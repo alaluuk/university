@@ -42,6 +42,7 @@ Työn etenemistä seurataan GitHub Projectsissa suhteessa Sprint Goaliin ja tuot
 ## Projektin dokumentit
 
 - [Definition of Done](docs/definition-of-done.md) – yhteiset valmistumisen ehdot; täydennetään ennen toteutusta.
+- [Vaatimusmäärittely](docs/requirements.md) - tuotteelle asetettavat vaatimukset; täydennetään tarvittaessa
 - [Sprint 1:n tavoite ja muistiot](docs/sprints/sprint-1.md) – täydennetään Sprint Planningissa ja Sprintin edetessä.
 
 Vaatimusmäärittely, tekninen dokumentaatio sekä asennus- ja käyttöohjeet lisätään `docs`-kansioon projektin edetessä.
