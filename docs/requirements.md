@@ -18,3 +18,26 @@ flowchart LR
 
     UserInterface <-->|"Verkkoyhteys"| RegistryService
 ```
+## Käyttötapauskaavio
+
+```mermaid
+usecase-beta
+    direction LR
+    actor Student("Opiskelija")
+    systemBoundary Application["Oppilasrekisteri"]
+        Login("Kirjaudu sisään")
+        ViewInfo("Katso henkilötiedot")
+        ViewGrades("Katso arvosanat")
+        RegisterCourse("Ilmoittaudu kurssille")
+        Logout("Kirjaudu ulos")
+    end
+
+    Student --> Login
+    Student --> ViewInfo
+    Student --> ViewGrades
+    Student --> RegisterCourse
+    Student --> Logout
+    ViewInfo ..> : include Login
+    ViewGrades ..> : include Login
+    RegisterCourse ..> : include Login
+```
